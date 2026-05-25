@@ -25,5 +25,36 @@ const factions = [
 ];
 
 const roles = ["Fighter", "Cluver", "Flex", "Support"];
+const campaign = ["Campaign", "Standalone"];
+const campaignID = [
+  "NoZ",
+  "rNoz",
+  "TDL",
+  "rTDL",
+  "PTC",
+  "rPTC",
+  "TCU",
+  "rTCU",
+  "TDE",
+  "TIC",
+  "ETE",
+  "TSK",
+  "FHV",
+  "TDC",
+];
+const standaloneID = [
+  "CoR",
+  "CoH",
+  "TLoL",
+  "GoTA",
+  "MAEH",
+  "BTAE",
+  "WOOG",
+  "MTT",
+  "FAF",
+  "BAEE",
+  "TMG",
+  "FF",
+];
 BuildDropdown(factions, "Factions");
 BuildDropdown(roles, "Roles");
